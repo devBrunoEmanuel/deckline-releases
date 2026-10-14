@@ -1,0 +1,18 @@
+name = "deckline-relay"
+main = "src/index.js"
+compatibility_date = "2025-09-01"
+
+[vars]
+REPO = "devBrunoEmanuel/deckline-releases"
+
+# Até 5 envios por minuto por IP. O app manda no máximo um lote a cada tanto, então sobra folga.
+[[ratelimits]]
+name = "LIMITER"
+namespace_id = "1001"
+
+  [ratelimits.simple]
+  limit = 5
+  period = 60
+
+# A chave do GitHub NÃO fica aqui. Ela é um segredo:
+#   npx wrangler secret put GITHUB_TOKEN

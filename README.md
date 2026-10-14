@@ -22,4 +22,6 @@ oferecidas e mantidas, quem começou, contra qual classe e se ganhou. Um robô j
 - `data/samples/` — as partidas recebidas, uma por linha, separadas por mês.
 - `collector/aggregate.mjs` — o robô (roda no GitHub Actions a cada envio e a cada 6 horas).
   Só aceita envios do próprio Deckline e valida cada partida antes de somar.
+- `relay/` — o servidorzinho no Cloudflare que recebe os envios do app e abre as issues. Assim o
+  Deckline não precisa levar nenhuma chave do GitHub no instalador.
 - O guia usa só os últimos 120 dias, para acompanhar o meta.
