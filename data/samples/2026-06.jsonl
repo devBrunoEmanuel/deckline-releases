@@ -1,0 +1,7 @@
+{"v":1,"id":"65a54e597b2387afd2c48a278fa0622f","playerClass":"HUNTER","opponentClass":"PALADIN","coin":false,"result":"win","offered":["TLC_836","MEND_301","DINO_434"],"kept":["DINO_434"],"day":"2026-06-06"}
+{"v":1,"id":"f3ce41225c876e19e32131857056d57d","playerClass":"HUNTER","opponentClass":"DRUID","coin":true,"result":"win","offered":["CATA_560","MEND_300","MEND_303","CATA_614"],"kept":["CATA_560","MEND_300","MEND_303"],"day":"2026-06-06"}
+{"v":1,"id":"399432920498bd7259d76658bbcae08c","playerClass":"HUNTER","opponentClass":"HUNTER","coin":false,"result":"loss","offered":["MEND_307","CORE_BAR_801","TIME_609t2"],"kept":["CORE_BAR_801"],"day":"2026-06-06"}
+{"v":1,"id":"c78a2a49374591083f450b482bd10a86","playerClass":"ROGUE","opponentClass":"ROGUE","coin":true,"result":"win","offered":["CATA_201","CORE_UNG_205","TLC_100","TLC_515"],"kept":[],"day":"2026-06-06"}
+{"v":1,"id":"7ae98a8bdc79022a9f97d2272ed34966","playerClass":"ROGUE","opponentClass":"ROGUE","coin":false,"result":"win","offered":["TLC_522","CORE_RLK_567","CORE_EX1_129"],"kept":["CORE_EX1_129"],"day":"2026-06-06"}
+{"v":1,"id":"b48ecc754f5168bedb0547d14a3c1bf7","playerClass":"MAGE","opponentClass":"DRUID","coin":false,"result":"win","offered":["MEND_506","MEND_501","TIME_855"],"kept":["MEND_506","MEND_501"],"day":"2026-06-06"}
+{"v":1,"id":"7d65a3b1ea00392c2d629ce146a87b16","playerClass":"MAGE","opponentClass":"SHAMAN","coin":true,"result":"loss","offered":["CATA_452","CATA_452","CATA_489","CATA_484"],"kept":["CATA_484"],"day":"2026-06-06"}

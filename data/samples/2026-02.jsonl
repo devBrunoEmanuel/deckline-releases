@@ -1,0 +1,11 @@
+{"v":1,"id":"2ceb45cb29de17eacf955a1a0a0b073a","playerClass":"PALADIN","opponentClass":"HUNTER","coin":false,"result":"win","offered":["TTN_908","GDB_138","GDB_721"],"kept":["GDB_721"],"day":"2026-02-14"}
+{"v":1,"id":"ffd79984ce8e8241e030e51ba0a21991","playerClass":"PALADIN","opponentClass":"SHAMAN","coin":true,"result":"win","offered":["GDB_139","GDB_461","GDB_137","TIME_009t2"],"kept":["GDB_461"],"day":"2026-02-14"}
+{"v":1,"id":"9ec7096a4b07448ec5592ff77e675129","playerClass":"PALADIN","opponentClass":"DEATHKNIGHT","coin":false,"result":"loss","offered":["GDB_139","GDB_461","GDB_139"],"kept":[],"day":"2026-02-14"}
+{"v":1,"id":"93aef9ad23df1aa5bd876d65bcb94ba6","playerClass":"PALADIN","opponentClass":"ROGUE","coin":true,"result":"loss","offered":["GDB_142","TLC_100","TIME_009t1","GDB_138"],"kept":["TLC_100"],"day":"2026-02-14"}
+{"v":1,"id":"87c6af48a0f927c5b2df6b8514541890","playerClass":"PALADIN","opponentClass":"PRIEST","coin":true,"result":"loss","offered":["TTN_908","TTN_908","END_011","GDB_139"],"kept":["END_011"],"day":"2026-02-14"}
+{"v":1,"id":"49b70178c5e7704917d6b2ec22da4910","playerClass":"WARRIOR","opponentClass":"ROGUE","coin":false,"result":"win","offered":["DINO_433","EDR_456","TIME_714"],"kept":["EDR_456","TIME_714"],"day":"2026-02-14"}
+{"v":1,"id":"dbf6d8dc1b6f024ded0c056a06b6fceb","playerClass":"WARRIOR","opponentClass":"DEMONHUNTER","coin":true,"result":"win","offered":["TOT_110","EDR_455","TTN_467","TTN_715"],"kept":[],"day":"2026-02-14"}
+{"v":1,"id":"24a0637c695155e977318b498427c24a","playerClass":"WARRIOR","opponentClass":"ROGUE","coin":false,"result":"win","offered":["EDR_455","TIME_750","TLC_600"],"kept":["TIME_750"],"day":"2026-02-14"}
+{"v":1,"id":"5d45b36cf32e16d5bd4d815e43062618","playerClass":"WARRIOR","opponentClass":"DEMONHUNTER","coin":false,"result":"win","offered":["TOT_109","EDR_455","EDR_457"],"kept":["TOT_109","EDR_457"],"day":"2026-02-14"}
+{"v":1,"id":"50adba8bea24d9127796af13f1941026","playerClass":"WARRIOR","opponentClass":"WARRIOR","coin":false,"result":"win","offered":["TIME_714","TOT_110","EDR_457"],"kept":["TIME_714","EDR_457"],"day":"2026-02-14"}
+{"v":1,"id":"1cdb66a3ba2fb084c410240d30ee0849","playerClass":"WARRIOR","opponentClass":"WARRIOR","coin":true,"result":"loss","offered":["TIME_750","EDR_455","TIME_715","TLC_620"],"kept":["TIME_750"],"day":"2026-02-14"}

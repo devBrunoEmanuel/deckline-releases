@@ -1,0 +1,50 @@
+name: Juntar mulligans da comunidade
+
+on:
+  issues:
+    types: [opened]
+  schedule:
+    - cron: '17 */6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+# Um de cada vez: dois robôs gravando ao mesmo tempo dariam conflito no git.
+concurrency:
+  group: aggregate
+  cancel-in-progress: false
+
+jobs:
+  aggregate:
+    if: github.event_name != 'issues' || startsWith(github.event.issue.title, 'mulligan-batch')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Ler os envios e recalcular o guia
+        run: node collector/aggregate.mjs collect
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Salvar no repositório
+        run: |
+          git config user.name "deckline-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          if git diff --cached --quiet; then
+            echo "Nada novo."
+          else
+            git commit -m "Atualiza o guia de mulligan da comunidade"
+            git push
+          fi
+
+      - name: Fechar os envios processados
+        run: node collector/aggregate.mjs close
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
